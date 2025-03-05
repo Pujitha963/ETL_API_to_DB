@@ -4,7 +4,7 @@ def load(data):
     conn = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='SQL@Learn123',
+        password='password', #replace with your_password
         database='api_data'
     )
     cursor = conn.cursor()
