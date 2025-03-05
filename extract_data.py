@@ -1,7 +1,7 @@
 import requests
 
 #using openweather api key
-API_KEY = '7163eb86dc5fb90914c4ba1cb5b77eb2'
+API_KEY = 'api_kpi' #replace with actual one
 CITY = 'Hyderabad'
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
